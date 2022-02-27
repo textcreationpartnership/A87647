@@ -1,0 +1,475 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A catechisme for, the times. Published according to order.</title>
+            <author>J. K.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1645</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 30 KB of XML-encoded text transcribed from 9 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A87647</idno>
+            <idno type="STC">Wing K11</idno>
+            <idno type="STC">Thomason E1185_7</idno>
+            <idno type="STC">ESTC R208212</idno>
+            <idno type="EEBO-CITATION">99867181</idno>
+            <idno type="PROQUEST">99867181</idno>
+            <idno type="VID">119478</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A87647)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 119478)</note>
+            <note>Images scanned from microfilm: (Thomason Tracts ; 167:E1185[7])</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A catechisme for, the times. Published according to order.</title>
+                  <author>J. K.</author>
+               </titleStmt>
+               <extent>[4], 11, [1] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by G. Miller, and are to be sold at his house in Black-Fryers,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1645.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Postscript singed: I.K.</note>
+                  <note>Annotation on Thomason copy: "Sept: 2d".</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Church of England --  Catechisms --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-06</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-06</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-03</date>
+            <label>Megan Marion</label>Sampled and proofread</change>
+         <change>
+            <date>2011-03</date>
+            <label>Megan Marion</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:119478:1" rendition="simple:additions"/>
+            <p>
+               <hi>A CATECHISME FOR, THE TIMES.</hi>
+            </p>
+            <q>
+               <bibl>1 <hi>COR.</hi> 3. 2, 3.</bibl>
+               <p>I have fed you with milk, and not with meat: for hither to ye were not able to bear it, neither yet now are ye able. For ye are yet carnall: for where<g ref="char:EOLhyphen"/>as there is among you envying, and ſtrife, and di<g ref="char:EOLhyphen"/>viſions, are ye not carnall?</p>
+            </q>
+            <q>
+               <bibl>
+                  <hi>JUDE.</hi> 3, 4.</bibl>
+               <p>It was needfull for me to write unto you, and exhort you, that ye ſhould earneſtly contend for the faith, which was once delivered unto the Saints. For there are certain men crept in una<g ref="char:EOLhyphen"/>wares, who were before of old ordained to this condemnation, ungodly men, turning the grace of our God into laſciviouſneſſe, &amp;c.</p>
+            </q>
+            <p>
+               <hi>Publiſhed according to Order.</hi>
+            </p>
+            <p>LONDON, <hi>Printed by</hi> G. Miller, <hi>and are to be ſold at his houſe in Black-Fryers.</hi> 1645.</p>
+            <pb facs="tcp:119478:2"/>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:119478:2"/>
+            <head>To the Reader.</head>
+            <p>
+               <seg rend="decorInit">A</seg>Rt thou conceited of thine own know<g ref="char:EOLhyphen"/>ledge? then read no further; thou art too wiſe to learn: or dost thou deſire to learn new notions? then I muſt tell thee, this treatiſe is not for thy palate: here is nothing but plaine, old, and deſpiſed truth; which thy queaſie ſtomack will not away with: or art thou a tender and humble Christian, willing to ſtoop to the contemned Ordinance of Catechiſe, that thou mayeſt be confirmed againſt the ſects, and errours of the Times? if this be thy temper, and this thy aime, then mayest thou expect a bleſſing, if thou ſhalt pray, read, and study my anſwers; wherein I have not been ſo carefull, to give you the forme of an anſwer; as to referre you to ſuch Scri<g ref="char:EOLhyphen"/>ptures as afford matter for the anſwer: which courſe I finde warranted by the like practice of our Saviour, and I judge it the profitableſt way in a tractate in this nature; for thereby the reader will bee constrained to ſtudie the Scri<g ref="char:EOLhyphen"/>ptures to underſtand the force of them, before he can ſatisfie himſelfe with an anſwer from them: as for example, in the queſtion concerning Ba<g ref="char:EOLhyphen"/>ptiſme,
+<pb facs="tcp:119478:3"/>
+the reader must weigh the circumſtances of the text, and compare it with the Hiſtory in Exodus, and ſo he may be enabled to ſatisfie him<g ref="char:EOLhyphen"/>ſelf in forming an anſwer thus, All the Iſraelites preſently after their comming forth from Egypt, when many of them were little children, were Baptized by the cloud which hung over their heads. Thus much, reader, I thought good to inti<g ref="char:EOLhyphen"/>mate to thee, that thou mightest not take offence at my method.</p>
+         </div>
+      </front>
+      <body>
+         <div type="catechism">
+            <pb n="1" facs="tcp:119478:3"/>
+            <head>A CATECHISME for the Times.</head>
+            <p>Firſt Queſtion,</p>
+            <p>
+               <hi>
+                  <seg rend="decorInit">W</seg>Hat times do we live in?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> In the laſt dayes perillous times ſhall come, 2 <hi>Tim.</hi> 3.1.</p>
+            <p>2. Q <hi>Why ſo?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> For men ſhall be lovers of their own ſelves, 2 <hi>Tim.</hi> 1.2.</p>
+            <p>3. Q <hi>What ſpeaks the Scripture of the doctrinall errours of theſe latter times?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> The ſpirit ſpeaketh expreſly, that in the latter times ſome ſhall depart from the faith, giving heed to ſeducing ſpirits, and doctrines of devils. 1 <hi>Tim.</hi> 4.1.</p>
+            <p>4. Q. <hi>What think you of the ringleaders, and teachers of ſuch doctrines?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Theſe reſiſt the truth; men of corrupt mindes, re<g ref="char:EOLhyphen"/>probate concerning the faith. 2. <hi>Tim.</hi> 3.8.</p>
+            <p>5. Q <hi>But may we not think them ſincere, ſeeing they pro<g ref="char:EOLhyphen"/>ſeſſe much holineſſe?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Having a form of godlineſſe, but denying the power thereof, 2 <hi>Tim.</hi> 3.5.</p>
+            <p>6 Q <hi>But ſo far as we can judge, they are the redeemed of God: how then can you think ſo hardly of them, and their doctrines?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> There ſhall be falſe teachers among you, who pri<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ily ſhall bring in damnable hereſies, even denying the Lord that bought them, 2. <hi>Pet.</hi> 2.1.</p>
+            <pb n="2" facs="tcp:119478:4"/>
+            <p>7. Q <hi>But if they, and their opinions were ſo groſſe, would they be followed by ſo many profeſſours?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Many ſhall follow their pernicious ways, by reaſon of whom the way of truth ſhall be evil ſpoken of, 2. <hi>Pet.</hi> 2.1.</p>
+            <p>8. Q. <hi>But the teachers are ſome of them knowing men; and would they, think you, teach notorious falſehoods?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Speaking lies in hypocriſie, having their conſcience ſeared with a hot iron, 1. <hi>Tim</hi> 4. 2.</p>
+            <p>9. Q <hi>Thoſe which you count the ſeduc<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rs amongſt us, cry out upon antichriſt; and do not they ſtand then for the truth?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> It is the laſt time: and as ye have heard that anti<g ref="char:EOLhyphen"/>chriſt come<g ref="char:punc">▪</g> even now are there many antichriſts, whereby we know that it is the laſt time. 1. <hi>Ioh.</hi> 2.18.</p>
+            <p>10. Q <hi>But is it not ſtrange that you ſhould count theſe antichriſts, who ſeem rather Angels of light, and Apoſtles?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Such are falſe Apoſtles, deceitfull workers, tranſ<g ref="char:EOLhyphen"/>forming themſelves into the Apoſtles of Chriſt; and no mervail, for Satan himſelf is transformed into an angel of light: therefore it is no great thing if his miniſters alſo be transformed as the Miniſters of righteouſneſſe, 2. <hi>Cor.</hi> 11 13, 14, 15.</p>
+            <p>11. Q. <hi>But theſe men alledge Scripture for what they urge, and can you ſay then that they follow the devil as his mini<g ref="char:EOLhyphen"/>ſters?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Then the devil taketh him up into the holy city, and ſetteth him on a pinnacle of the temple, and ſaith unto him, If thou be the Son of God, caſt thy ſelf down, for it is written, He ſhall give his Angels charge concerning thee, and in their hands they ſhall bear thee up, leſt at any time thou daſh thy foot againſt a ſtone, <hi>Mat.</hi> 4.5, 6.</p>
+            <p>12. Q <hi>Thoſe whom you count the miniſters of Satan, do they not ſerve God according to their light?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> They that are ſuch, ſerve not our Lord Jeſus Chriſt, but there own belly, <hi>Rom.</hi> 16.18.</p>
+            <p>13. Q <hi>You ſeem to imply, that their hearts are corrupt, as well as their judgements: what corruption makes them ſeducers?</hi>
+            </p>
+            <p>
+               <pb n="3" facs="tcp:119478:4"/>
+               <hi>A.</hi> Through coveteouſneſſe ſhall they with feigned words make merchandiſe of you. 2. <hi>Pet.</hi> 2.3.</p>
+            <p>14. Q. <hi>But all of them ſeem not to be covetous: what corruption then ſways the reſt?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> If any man teach otherwiſe, and conſent not to wholſome words, even the words of our Lord Jeſus Chriſt, and to the Doctrine which is according to godlineſſe, he is proud, knowing nothing, but doting about queſtions, and ſtrifes of words, whereof commeth envy, ſtrife, railings, evill ſurmiſings, perverſe diſputings of men of corrupt mindes, and diſtitute of the truth, 1. <hi>Tim,</hi> 6.3.4.5.</p>
+            <p>15. Q. <hi>Is the want of Learning in ſome of their teachers any cauſe of their wreſting the Scriptures?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> In which are ſome things are hard to be underſtood<g ref="char:punc">▪</g> which they that are unlearned and unſtable, wreſt, as they do alſo the other Scriptures. 2. <hi>Pet.</hi> 3.16.</p>
+            <p>15. Q <hi>Do not the affecting of new notions, and other luſts in the hearers, make them ready to embrace ſeducing teachers?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> The time will come, when they will not endure ſound doctrine, but after their own luſts ſhall they heap to themſelves teachers, having itching ears: and they ſhall turn away their ears from the truth, and ſhall be turned unto fables, 2. <hi>Tim.</hi> 4.3, 4.</p>
+            <p>17. Q <hi>Do not alſo the weakneſſe, and ſhallowneſſe of the hearers, together with other corruptions, make them apt to be ſeduced by ſuch men?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Of this ſort are they which creep into houſes, and lead captive ſilly women, laden with ſins, led away with divers luſts, ever learning, and never able to come to the knowledge of the truth, 2. <hi>Tim.</hi> 3.6, 7.</p>
+            <p>18. Q <hi>Do the falſe teachers uſe ſlights to inveigle ſuch perſons?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> That we henceforth be no more children, toſſed to and fro, and carried about with every winde of doctrine by the ſleight of men, and cunning craftineſſe, whereby they he in wait to deceive, <hi>Eph.</hi> 4.14.</p>
+            <p>19. Q. <hi>Are not ſome honeſt meaning perſons ſeduced by their craft?</hi>
+            </p>
+            <p>
+               <pb n="4" facs="tcp:119478:5"/>
+               <hi>A.</hi> They deceive the hearts of the ſimple, <hi>Rom.</hi> 16.18.</p>
+            <p>20. Q. <hi>How come they to ſeduce them?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> By good words, and fair ſpeeches, <hi>Rom.</hi> 16.18.</p>
+            <p>21. Q. <hi>If thoſe whom you call ſeducers uſe ſuch good language, is there not good hopes of them?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Evil men and ſeducers ſhall wax worſe and worſe, deceiving and being deceived, 2 <hi>Fim.</hi> 3.12.</p>
+            <p>22. Q <hi>You ſeem to hate their ways that bold out the er<g ref="char:EOLhyphen"/>rours of the times: doth ſuch an affection become Chriſtians?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> This thou haſt, that thou hateſt the deeds of the <hi>Nicolaitans,</hi> which I alſo hate, <hi>Rev</hi> 2.6.</p>
+            <p>23. Q <hi>You not only diſtaſte the errours but thoſe alſo that teach them: where is your warrant for that?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> I know thy works, and thy labour, and thy patience, and how thou canſt not bear them which are evil, and thou haſt tryed them, which ſay they are apoſtles, and are not, and hoſt found them liars <hi>Rev.</hi> 2.2.</p>
+            <p>24. Q <hi>Is it likely that if theſe courſes were ſo dangerous, God would ſuffer ſo many teachers to ſtand for them, and prevail ſo?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> There came forth a ſpirit, and ſtood before the Lord, and ſaid, I will perſwade him: and the Lord ſaid unto him, Wherewith? and he ſaid, I will go forth, and I will be a lying ſpirit in the mouth of all his Prephets: and he ſaid, Thou ſhalt perſwade him, and prevail alſo; go forth and do ſo: now therefore, behold, the Lord hath put a lying ſpirit in the mouth of all theſe thy Prophets, 1. <hi>Kin.</hi> 22.21, 22, 23.</p>
+            <p>25. Q <hi>Seeing it appears that God gives Satan a power to prevail, in the mouthes of ſeducers: what doth God intend thereby towards ſuch as walk cloſely with him? is it likely that they ſhall be ſeduced?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> There muſt be alſo hereſies among you, that they which are approved, may be made manifeſt among you, 1. <hi>Cor</hi> 11.19.</p>
+            <p>26. Q. <hi>What is Gods aime therein towards falſe-hearted proſeſſours? are not they in great danger to miſcarry?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Becauſe they received not the love of the truth, that
+<pb n="5" facs="tcp:119478:5"/>
+they might be ſaved, for this cauſe God ſhall ſend them ſtrong deluſion, that they ſhould beleeve a lie: that they all might he damned, who beleeved not the truth, but had pleaſure in unrighteouſneſſe, 2 <hi>Theſ.</hi> 1.10, 11, 12.</p>
+            <p>27. Q <hi>What uſe muſt we make hereof?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Ye therefore, beloved, ſeeing ye know theſe things before, beware leſt ye alſo, being led away with the errour of the wicked, fall from your own ſtedfaſtneſſe: but grow in grace, and in the knowledge of our Lord and Saviour Jeſus Chriſt, 2 <hi>Pet</hi> 3.17, 18.</p>
+            <p>28. Q. <hi>Is there any hope that the errours ſhall be cruſht?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> The God of peace ſhall bruiſe Satan under your feet ſhortly, <hi>Rom.</hi> 16.20.</p>
+            <p>29 Q. <hi>How is that likely, while they carry on their errours with ſuch plauſible pretences?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> But they ſhall proceed no further: for their folly ſhall be manifeſt to all men, 2 <hi>Tim.</hi> 3.9.</p>
+            <p>30. Q. <hi>In the mean while may not theſe men be connived at?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> There are many unruly, and vain talkers, and de<g ref="char:EOLhyphen"/>ceivers, whoſe mouths muſt be ſtopped, who ſubvert whole houſes, teaching things which they ought not, <hi>Tit.</hi> 1.10, 11.</p>
+            <p>31. Q. <hi>May the civill Magiſtrate meddle with thoſe that enaeavour to ſeduce others into errours in matter of Religion?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> If thou do that which is evil, be afraid, for he beareth not the ſword in vain: for he is the Miniſter of God, a revenger, to execute wrath upon him that doth evil, <hi>Rom.</hi> 13.4.</p>
+            <p>32. Q <hi>But though ſeducing be an evil work, may it not be good Chriſtian policy, for thoſe in authority to refrain from theſe men, and let them alone?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> I have a few things againſt thee, becauſe thou ſuffereſt that woman <hi>Iezebel,</hi> which calleth her ſelf a propheteſſe, to teach and to ſeduce my ſervants, <hi>Rev.</hi> 2.20.</p>
+            <p>33. Q <hi>It ſeemes you would fain have ſome courſe taken to be rid of them: what ſpirit doth that ſavour of?</hi>
+            </p>
+            <p>
+               <pb n="6" facs="tcp:119478:6"/>
+               <hi>A.</hi> I would they were even cut off which trouble you, <hi>Gal.</hi> 5. 12.</p>
+            <p>34. Q <hi>Till ſome courſe be taken for their ſuppreſſion, what courſe muſt I take to keep out of the way of errour?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Now I beſeech you, brethren, mark them which cauſe diviſions and offences, contrary to the doctrine which ye have learned, and avoid them, <hi>Rom.</hi> 16.17.</p>
+            <p>35. Q. <hi>Beſides ſhunning their company, what elſe muſt we do?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Beloved, beleeve not every ſpirit, but try the ſpirits, whether they are of God: becauſe many falſe prophets are gone out into the world, 1 <hi>Ioh.</hi> 4.1.</p>
+            <p>36. Q. <hi>You would have us very ſuſpicious in theſe times; what generall ground have you, whom to ſuſpect as unſound?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> They went out from us, but they were not of us: for if they had been of us, they would no doubt have continued with us: but they went out, that they might be made mani<g ref="char:EOLhyphen"/>feſt, that they were not all of us. 1 <hi>Ioh.</hi> 2. 19.</p>
+            <p>37. Q <hi>Many which ſeperate, cry down your miniſtery for Antichriſtian, and ſpeak much of the ſpirit; what can you ſay about them?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Beloved, remember ye the words which were ſpoken before of the Apoſtles of our Lord Jeſus Chriſt, how that they told you, there ſhould be mockers in the laſt time, who ſhould walk after theit own ungodly luſts: theſe be they who ſeparate themſelves, ſenſuall, having not the ſpi<g ref="char:EOLhyphen"/>rit, <hi>Iud.</hi> 17, 18, 19.</p>
+            <p>38. Q. <hi>They have been very earneſt with me to forſake your Miniſters: what is their deſigne in that?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> They zealouſly affect you, but not well: yea, they would exclude you, that you might affect them, <hi>Gal.</hi> 4.17.</p>
+            <p>39. Q <hi>How can you juſtifie againſt them, your miniſtery of the Church of England?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> The ſeal of my Apoſtleſhip are ye in the Lord, 1. <hi>Cor.</hi> 9.2.</p>
+            <p>40. Q. <hi>Is then the ordinary converſion of ſouls a demon<g ref="char:EOLunhyphen"/>ſtrative argument of a right miniſtery?</hi>
+            </p>
+            <p>
+               <pb n="7" facs="tcp:119478:6"/>
+               <hi>A.</hi> How ſhall they beleeve in him of whom they have not heard? and how ſhall they hear without a preacher? and how ſhall they preach except they be ſent? <hi>Rom.</hi> 10. 14, 15.</p>
+            <p>41. Q. <hi>They deny your Church of England, and ſay there is no Church viſible in the new teſtament, but a particular con<g ref="char:EOLhyphen"/>gregation: how prove you the contrary?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> God hath ſet ſome in the Church, firſt Apoſtles, ſe<g ref="char:EOLhyphen"/>condarily prophets, thirdly teachers, after that miracles, then gifts of healings, helps in governments, diverſities of tongues, 1 <hi>Cor.</hi> 12.28.</p>
+            <p>42. Q <hi>Have you any further warrant to judge, that there may be Nationall Churches in Goſpel times?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> In the laſt dayes it ſhall come to paſſe, that the mountain of the houſe of the Lord, ſhall be eſtabliſhed in the top of the mountaines, and it ſhall be exalted above the hills, and people ſhall flow unto it, and many Nations ſhall come and ſay, Come, let us go up to the mountain of the Lord, &amp;c. <hi>Mich.</hi> 4. 1.2.</p>
+            <p>43. Q. <hi>Others diſlike your Miniſters, becauſe they do not work for their livings, as</hi> Paul <hi>did; what ſay you to that?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Or I only and Barnabas, have not we power to for<g ref="char:EOLhyphen"/>bear working? who goeth a warfare any time at his own charges? who planteth a vineyard, and eateth not of the fruit thereof? or who feedeth a flock, and eateth not of the milk of the flock? ſay I theſe things as a man? or ſaith not the Law the ſame alſo? 1 <hi>Cor.</hi> 9.6, 7, 8.</p>
+            <p>44. Q <hi>But your Miniſters are maintained by tithes: were not they proper to the Leviticall Prieſt hood, and therefore to be aboliſhed with it?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> He whoſe deſcent is not counted from them, re<g ref="char:EOLhyphen"/>ceived tithes of <hi>Abraham,</hi> and bleſſed him that had the promiſes, <hi>Heb.</hi> 7.8.</p>
+            <p>45. Q <hi>Others ſeparate onely from the Communion, be<g ref="char:EOLhyphen"/>cauſe unworthy receivers are known to come to the table: how may their conſciences be ſatisfied, till diſcipline be reſtored more exactly?</hi>
+            </p>
+            <p>
+               <pb n="8" facs="tcp:119478:7"/>
+               <hi>A.</hi> Let a man examine himſelf, and ſo let him eat of that bread, and drink of that cup: for he that eateth and drink<g ref="char:EOLhyphen"/>eth unworthily, eateth and drinketh damnation, to him<g ref="char:EOLhyphen"/>ſelf, 1 <hi>Cor.</hi> 11.28, <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>9.</p>
+            <p>46. Q. <hi>Others take exception chiefly at your adminiſtring of baptiſme: can you ſhew them by Scripture the baptizing of infants; and that without dipping?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Brethren, I would not that ye ſhould be ignorant, how that our fathers were vnder the cloud, and all paſſed thorow the Sea, and were all baptized unto <hi>Moſes</hi> in the cloud, &amp;c. 1 <hi>Cor.</hi> 10. 11, 2.</p>
+            <p>47. Q <hi>But you ſerve God according to a Directory: where is your warrant for that?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> One of his diſciples ſaid unto him, Lord, teach us to pray, as John alſo taught his diſciples: and he ſaid unto them, When ye pray, ſay, Our Father which art in Heaven, hallowed he thy Name, &amp;c. <hi>Luke</hi> 11. 1, <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>.</p>
+            <p>48. Q. <hi>But where is your warrant, for ſinging of Pſalmes together at your meetings?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Let the word of Chriſt dwell in you richly in all wiſdom, teaching and admoniſhing one another, in Pſalms, and hymnes, and ſpirituall ſongs, ſinging with grace in your hearts to the Lord, <hi>Col.</hi> 3.16.</p>
+            <p>49. Q <hi>Others diſlike the matter of your preaching generally, as too legall for theſe Goſpel-times: what generall anſwer will you give them?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Do we then make void the law through faith? God forbid: yea, we eſtabliſh the law, <hi>Rom.</hi> 3.31.</p>
+            <p>50. Q <hi>Is it our duty then to keep the Law?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> If you fulfill the royall law, according to the Scri<g ref="char:EOLhyphen"/>pture, Thou ſhalt love thy neighbour as thy ſelf, ye do well, <hi>Iam,</hi> 2, 8.</p>
+            <p>51. Q. <hi>But what if we fail in any point of the Law?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Ye commit ſin, and are convinced of the law as tranſgreſſiours, for whoſoever ſhall keep the whole law, and yet offend in one point, he is guilty of all, <hi>Iam.</hi> 2. 9, 10.</p>
+            <pb n="9" facs="tcp:119478:7"/>
+            <p>52. Q. <hi>Should then a childe of God take notice of, and lay to heart the guilt of his ſins?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Deliver me from blood-guiltineſſe, O God, <hi>Pſa.</hi> 51.14.</p>
+            <p>53. Q. <hi>Some ſay,</hi> David <hi>was under another diſpenſation then we are: can you ſhew them the like precedent before the Covenant from mount Sinai, which gendreth to bondage?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> I have ſinned; what ſhall I do unto thee, O thou pre<g ref="char:EOLhyphen"/>ſerver of men? why haſt thou ſet me<g ref="char:punc">▪</g> as a mark againſt thee, ſo that I am a burden unto my ſelf? and why doſt thou not pardon my tranſgreſſion, and take away mine ini<g ref="char:EOLhyphen"/>quity <hi>Iob.</hi> 7.20, 21.</p>
+            <p>54 Q <hi>What ſhould a childe of God do then to get his ſins pardoned?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Forgive us our ſins, <hi>Luke</hi> 11. 4.</p>
+            <p>55. Q. <hi>What muſt he do beſides praying for pardon?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> If we confeſſe our ſins, he is faithfull, and juſt to for<g ref="char:EOLhyphen"/>give us our ſins, 1 <hi>Iob.</hi> 1.9.</p>
+            <p>56. Q. <hi>What further condition is there required of a childe of God for the obtaining of pardon?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> If ye forgive men their treſpaſſes, your heavenly Father will alſo forgive you: but if ye forgive not men their treſ<g ref="char:EOLhyphen"/>paſſes, neither will your Father forgive your treſpaſſes <hi>Mat</hi> 6. 14, 15.</p>
+            <p>57. Q. <hi>Your doctrine implies, that God obſerves the ſins of his people: can you prove that?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Nevertheleſſe, I have ſomewhat againſt thee, becauſe thou haſt left thy firſt love, <hi>Rev.</hi> 2.4, 23.</p>
+            <p>58. Q <hi>Doth God alſo correct his children for their ſins?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> For this cauſe many are weak and ſickly among you, and many ſleep; for if we would judge our ſelves, we ſhould not bee judged, but when we are judged, we are chaſtened of the Lord, that we ſhould not be condemned with the world, 1 <hi>Cor.</hi> 11. 30, 31, 32.</p>
+            <p>59. Q <hi>May then a childe of God, when he is corrected look upon God as angry and upon ſin as the procuring cauſe?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> I will bear the indignation of the Lord, becauſe I have ſinned againſt him, untill he plead my cauſe, and execute
+<pb n="10" facs="tcp:119478:8"/>
+judgement for me: he will bring me forth to the light, and I ſhall behold his righteouſneſſe, <hi>Mic.</hi> 7.9.</p>
+            <p>60. Q. <hi>Why? muſt not a Chriſtian look upon Gods love, and not upon his dreadfulneſſe?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> We receiving a Kingdom, which cannot be moved, let us have grace, whereby we may ſerve God acceptably, with reverence and godly fear, for our God is a conſuming fire, <hi>Heb.</hi> 12. 28, 29.</p>
+            <p>61. Q. <hi>Would you have a childe of God mourn for his ſinnes?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> I will pour upon the houſe of <hi>David,</hi> and upon the inhabitants of Jeruſalem the ſpirit of grace and of ſuppli<g ref="char:EOLhyphen"/>cations, and they ſhall look upon me whom they have pierced, and they ſhall mourn for him, as one mourneth for his only ſon, and ſhall be in bitterneſſe for him, as one that is in bitternſſe for his firſt-born, <hi>Zech.</hi> 12. 10.</p>
+            <p>62. Q. <hi>Would you have Chriſtians to try the goodneſſe of their eſtates by the work of grace in them?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Examine your ſelves, whether you be in the faith: prove your own ſelves, know ye not your own ſelves, how that Jeſus Chriſt is in you, except ye be reprobates? 2 <hi>Cor</hi> 13.5.</p>
+            <p>63. Q. <hi>What evident mark can you inſtance in, for a Chriſtian to try himſelf by?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> We know that we have paſſed from death unto life, becauſe we love the brethren, 1 <hi>Iob.</hi> 3.14.</p>
+            <p>64. Q. <hi>Should we now have legall terrours preſt?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Others ſave with fear, pulling them out of the fire, <hi>Iude</hi> 23.</p>
+            <p>65. Q. <hi>Should wicked men pray to God?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Pray God, if perhaps the thought of thine heart may be forgiven thee, for I perceive thou art in the gall of bit<g ref="char:EOLhyphen"/>terneſſe, and in the bond of iniquity, <hi>Acts</hi> 8 22, 23.</p>
+            <p>66. Q <hi>Is the uſuall diſcourſe of hard controverſies among weak Chriſtians to be approved?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Him that is weak in the faith, receive you, but not <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o doubtfull diſputations, <hi>Rom.</hi> 14.1.</p>
+            <pb n="11" facs="tcp:119478:8"/>
+            <p>67. Q. <hi>If I have a true opinion, which cannot be vented without offence, may I vent it?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Haſt thou faith? have it to thy ſelf, before God: happy is hee that condemneth not himſelf in that thing which he alloweth, <hi>Rom.</hi> 14.22.</p>
+            <p>68. Q. <hi>I have heard of a book written to prove that the ſoul of man remains not after death, how will you confute that?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> He went and preached to the ſpirits in priſon; which ſometimes were diſobedient, when once the long-ſuffering of God waited in the dayes of <hi>Noah,</hi> 1 <hi>Pet.</hi> 3.19, 20.</p>
+            <p>69. Q <hi>They ſay, there is another book out, to prove that a man may out away his wife, if ſhe be not a meet helper: how may I anſwer all the arguments there alleadged?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> It hath been ſaid, Whoſoever ſhall put away his wife, let him give her a writing of a divorcement: but I ſay unto you, that whoſoever ſhall put away his wife, ſaving for the cauſe of fornication, cauſeth her to commit adultery: and whoſoever ſhall marry her that is divorced, committeth adultery, <hi>Mat.</hi> 5.31, 32.</p>
+            <p>70. Q. <hi>There are many other new opinions, that men teach and write for with ſpecious arguments, I would fain be ſatiſ<g ref="char:EOLhyphen"/>fied about them: how ſhall I diſcern the truth?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> If any of you lack wiſdome, let him ask of God, that giveth to all men liberally and upbraideth not, and it ſhall be given him, <hi>Iam.</hi> 1.5.</p>
+            <p>If any man will do his will, he ſhall know of the doctrine whether it be of God, &amp;c. <hi>Iob.</hi> 7.17.</p>
+            <p>To the Law, and to the teſtimony, if they ſpeak not ac<g ref="char:EOLhyphen"/>cording to this word, it is becauſe there is no light in them, <hi>Iſa.</hi> 8.20.</p>
+         </div>
+         <div type="postscript">
+            <pb facs="tcp:119478:9"/>
+            <head>Poſtſcript to the judicious Reader.</head>
+            <p>IF thou haſt read over this Catechiſe, their mayeſt eaſily perceive that it was penned for Chriſtians of the loweſt forme: to whom the Author intended, with briefnes, clearnes and Scri<g ref="char:EOLhyphen"/>pture language, to give generall notes for caution againſt all the dangerous Doctrines of the times, and ſpeciall hints for ſatisfaction concerning ſome of the moſt obvious miſtakes and errours<g ref="char:punc">▪</g> If the ſight of this may occaſion from thee a fuller, and exacter treatiſe of this nature, none ſhall be more willing to ſtudy ſuch a Catechiſe then my ſelfe.</p>
+            <closer>
+               <signed>Thine and the truths, <hi>I. K.</hi>
+               </signed>
+            </closer>
+         </div>
+         <trailer>FINIS.</trailer>
+      </body>
+      <back>
+         <div type="imprimatur">
+            <p>Imprimatur,</p>
+            <closer>
+               <signed>JOHN DOVVNAME.</signed>
+            </closer>
+         </div>
+      </back>
+   </text>
+</TEI>
